@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#121212;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.movie-card{
+    background:white;
+    width:400px;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+}
+
+.movie-card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.movie-card h1{
+    margin:15px 0;
+}
+
+.seats{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:10px;
+    margin:20px 0;
+}
+
+.seat{
+    background:#4CAF50;
+    color:white;
+    padding:10px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.seat:hover{
+    background:#388E3C;
+}
+
+button{
+    background:#ff3d00;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#e53935;
+}
